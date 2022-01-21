@@ -12,12 +12,22 @@ function createchart() {
 	yValues.push(document.getElementById("thirdpoint").value)
 	yValues.push(document.getElementById("fourthpoint").value)
 	yValues.push(document.getElementById("fifthpoint").value)
+	yValues.push(document.getElementById("sixthpoint").value)
+	yValues.push(document.getElementById("seventhpoint").value)
+	yValues.push(document.getElementById("eighthpoint").value)
+	yValues.push(document.getElementById("ninthpoint").value)
+	yValues.push(document.getElementById("tenthpoint").value)
 
 	xValues.push(document.getElementById("firstdate").value)
 	xValues.push(document.getElementById("seconddate").value)
 	xValues.push(document.getElementById("thirddate").value)
 	xValues.push(document.getElementById("fourthdate").value)
 	xValues.push(document.getElementById("fifthdate").value)
+	xValues.push(document.getElementById("sixthdate").value)
+	xValues.push(document.getElementById("seventhdate").value)
+	xValues.push(document.getElementById("eighthdate").value)
+	xValues.push(document.getElementById("ninthdate").value)
+	xValues.push(document.getElementById("tenthdate").value)
 
 	Chart.plugins.register({
 		afterRender: function(c) {

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Karne Oluşturucu</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+	<script src="main.js"></script>
+    <script src="canvas-toBlob.js"></script>
+    <script src="fileSaver.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+	<style>
+		canvas {
+			background-color: #fafafa;
+		}
+	</style>
+</head>
+<body>
+	<h1>Karne Oluşturucu</h1>
+	<hr>
+	<p>1. Sınav</p>
+	<input type="text" name="first" id="firstpoint" placeholder="Puan">
+	<input type="text" name="first" id="firstdate" value="6 Eylül 2021" placeholder="Tarih">
+	<hr>
+	<p>2. Sınav</p>
+	<input type="text" name="first" id="secondpoint" placeholder="Puan">
+	<input type="text" name="first" id="seconddate" value="4 Ekim 2021" placeholder="Tarih">
+	<hr>
+	<p>3. Sınav</p>
+	<input type="text" name="first" id="thirdpoint" placeholder="Puan">
+	<input type="text" name="first" id="thirddate" value="8 Kasım 2021" placeholder="Tarih">
+	<hr>
+	<p>4. Sınav</p>
+	<input type="text" name="first" id="fourthpoint" placeholder="Puan">
+	<input type="text" name="first" id="fourthdate" value="21 Aralık 2021" placeholder="Tarih">
+	<hr>
+	<p>5. Sınav</p>
+	<input type="text" name="first" id="fifthpoint" placeholder="Puan">
+	<input type="text" name="first" id="fifthdate" value="18 Ocak 2022" placeholder="Tarih">
+	<hr>
+	<input type="text" name="first" id="studentname" placeholder="Öğrenci İsmi">
+	<hr>
+	<button id="btn" onclick="createchart()">Oluştur</button>
+	<hr>
+	<canvas style="display: none;" id="chart"></canvas>
+</body>
+</html>

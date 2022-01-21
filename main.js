@@ -48,6 +48,10 @@ function createchart() {
 			}]
 		},
 		options: {
+			title: {
+				display: true,
+				text: 'Karne - ' + document.getElementById("studentname").value
+			},
 			legend: { display: false },
 			layout: {
 				padding: 20
